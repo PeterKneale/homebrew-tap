@@ -1,28 +1,28 @@
 class Bioassert < Formula
   desc "CLI tool for asserting properties of files in bioinformatics pipelines"
   homepage "https://github.com/PeterKneale/bioassert"
-  version "3.1.3"
+  version "4.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/PeterKneale/bioassert/releases/download/v3.1.3/bioassert-3.1.3-macos-arm64.tar.gz"
-      sha256 "117b304be3aa242236bc972f95ae9943fffb24535dd81fb37f408692cdbe191a"
+      url "https://github.com/PeterKneale/bioassert/releases/download/v4.0.0/bioassert-4.0.0-macos-arm64.tar.gz"
+      sha256 "d4da85e3f4d059769be39b4a56ad2ddc8bdcfdfe4fe5c805bc0eccc6f6df5f8f"
     end
     on_intel do
-      url "https://github.com/PeterKneale/bioassert/releases/download/v3.1.3/bioassert-3.1.3-macos-x86_64.tar.gz"
-      sha256 "ade7b9629f2ad759ddfd523e35c0d8fde7c146e4aeacbcbae96667c8f1327c98"
+      url "https://github.com/PeterKneale/bioassert/releases/download/v4.0.0/bioassert-4.0.0-macos-x86_64.tar.gz"
+      sha256 "ba06b70e1b64af6baa3abdef14f48ccbf7e38571f4548de3709ac36db6f5ec50"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/PeterKneale/bioassert/releases/download/v3.1.3/bioassert-3.1.3-linux-x86_64.tar.gz"
-      sha256 "baf0f340aeb553856e98ad73adc2b41be17d38792d0c11c6f898466ef30f0b38"
+      url "https://github.com/PeterKneale/bioassert/releases/download/v4.0.0/bioassert-4.0.0-linux-x86_64.tar.gz"
+      sha256 "9cb72f93e6e8289209a77d2d34010a3d6942df4b4d6280c5b3112f8f85d64c2c"
     end
     on_arm do
-      url "https://github.com/PeterKneale/bioassert/releases/download/v3.1.3/bioassert-3.1.3-linux-arm64.tar.gz"
-      sha256 "5df3fa96321f9795cb743935471d1dd0b6f3465d86859f38da09cb3e617d7dd8"
+      url "https://github.com/PeterKneale/bioassert/releases/download/v4.0.0/bioassert-4.0.0-linux-arm64.tar.gz"
+      sha256 "540b1345e7b3a23d0668c27c5a4959bba50070b5caa88d3b421efc4526d90969"
     end
   end
 

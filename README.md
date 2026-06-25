@@ -1,4 +1,4 @@
-# homebrew-bioassert
+# homebrew-tap
 
 Homebrew tap for [bioassert](https://github.com/PeterKneale/bioassert), a CLI
 tool for asserting properties of files in bioinformatics pipelines.
@@ -6,13 +6,13 @@ tool for asserting properties of files in bioinformatics pipelines.
 ## Install
 
 ```sh
-brew install PeterKneale/bioassert/bioassert
+brew install PeterKneale/tap/bioassert
 ```
 
 or
 
 ```sh
-brew tap PeterKneale/bioassert
+brew tap PeterKneale/tap
 brew install bioassert
 ```
 

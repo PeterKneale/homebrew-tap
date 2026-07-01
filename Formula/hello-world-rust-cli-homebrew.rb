@@ -1,28 +1,28 @@
 class HelloWorldRustCliHomebrew < Formula
   desc "Hello world CLI"
   homepage "https://github.com/PeterKneale/hello-world-rust-cli-homebrew"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/PeterKneale/hello-world-rust-cli-homebrew/releases/download/v0.1.0/hello-world-rust-cli-homebrew-0.1.0-macos-arm64.tar.gz"
-      sha256 "5cf9c8602c227cda600a01b37298fb3959b6dc441f37e3d04674054cafabd995"
+      url "https://github.com/PeterKneale/hello-world-rust-cli-homebrew/releases/download/v0.2.0/hello-world-rust-cli-homebrew-0.2.0-macos-arm64.tar.gz"
+      sha256 "664ca99d96066aeccc61bdeee8f207f6247460391abdd1f9c96b46af042648ed"
     end
     on_intel do
-      url "https://github.com/PeterKneale/hello-world-rust-cli-homebrew/releases/download/v0.1.0/hello-world-rust-cli-homebrew-0.1.0-macos-x86_64.tar.gz"
-      sha256 "18444e973d60fa537eb7ea9c6e5b81af27e2eb26d6cb26cddaa06d39be956e91"
+      url "https://github.com/PeterKneale/hello-world-rust-cli-homebrew/releases/download/v0.2.0/hello-world-rust-cli-homebrew-0.2.0-macos-x86_64.tar.gz"
+      sha256 "1caf343cdb35700f7d692ae98764dd5e710a275fc3782f4002ffba4420a22a73"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/PeterKneale/hello-world-rust-cli-homebrew/releases/download/v0.1.0/hello-world-rust-cli-homebrew-0.1.0-linux-x86_64.tar.gz"
-      sha256 "be752ca6e6e5222b7e853aa679c7db61cb4447efce31484ad8bfc9a83c11cc65"
+      url "https://github.com/PeterKneale/hello-world-rust-cli-homebrew/releases/download/v0.2.0/hello-world-rust-cli-homebrew-0.2.0-linux-x86_64.tar.gz"
+      sha256 "97c33522940afdd35f3623abf62b135d5e3d0de5cc29feec197af791ae73247b"
     end
     on_arm do
-      url "https://github.com/PeterKneale/hello-world-rust-cli-homebrew/releases/download/v0.1.0/hello-world-rust-cli-homebrew-0.1.0-linux-arm64.tar.gz"
-      sha256 "7521345efd04be9086bbda6f92490eb15007d095a788c3b4a23e0a7a02fbf8b3"
+      url "https://github.com/PeterKneale/hello-world-rust-cli-homebrew/releases/download/v0.2.0/hello-world-rust-cli-homebrew-0.2.0-linux-arm64.tar.gz"
+      sha256 "4c73dfec6de359f5257a657b4200a18b9df9c9a07a7543fe3ba2029fde3155d4"
     end
   end
 
